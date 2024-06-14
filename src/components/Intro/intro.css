@@ -1,0 +1,74 @@
+#intro {
+    height: calc(100vh-5rem);
+    width: 175vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.bg {
+     position: absolute;
+     top: 14rem;
+     right: 2rem;
+     z-index: -1;
+     object-fit: cover;
+     height: 100vh;
+}
+
+.introcontent{
+    height: 100;
+    width: 100vw;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hello{
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+
+.introName{
+    color: rgb(5, 248, 228);
+}
+
+.introPara{
+    font-size: small;
+    font-weight: 300;
+    word-spacing: 1;
+}
+
+.btn{
+    background: white;
+    margin: 07rem, o;
+    padding: 0.60rem 0.7rem;
+    border: none;
+    border-radius: 2rem;
+    font-weight: 600;
+    font-size: small;
+}
+
+.btnImg{
+    object-fit: cover;
+    margin: 0 0.25rem;
+    height: 1.5rem;  
+    width: 1.5rem;  
+}
+
+@media screen and (max-width: 840px){
+    .bg {
+        right: -10vw;
+    }
+    .introcontent{
+        font-size: 10vw;
+    }
+    .hello {
+        font-size: 4.5vw;
+    }
+    .introPara{
+        font-size: 6vw;
+    }
+}
